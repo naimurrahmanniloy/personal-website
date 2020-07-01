@@ -1,3 +1,149 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+    }
+    /*--header part starts--*/
+    
+    section {
+        height: 95vh;
+        padding-bottom: 170px;
+    }
+    
+    h3 {
+        font-size: 55px;
+    }
+    
+    h2 {
+        color: #e0415c;
+        font-size: 50px;
+    }
+    
+    p {
+        color: dimgray;
+        padding-bottom: 20px;
+    }
+    
+    .btn {
+        text-decoration: none;
+        background-color: #e0415c;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 6px;
+    }
+    
+    .btn:hover {
+        background-color: beige;
+        color: black;
+        transition: .5s;
+    }
+    
+    .half_width {
+        width: 40%;
+        float: left;
+        margin: 3%;
+        padding: 2%;
+    }
+    
+    .half_width img {
+        width: 100%;
+    }
+    
+    .top_banner {
+        background-image: url(images/header-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #banner_text_part {
+        padding-top: 120px;
+    }
+    /*--header part ends--*/
+    /*biography part strat*/
+    
+    #biography_text_part {
+        padding-top: 200px;
+    }
+    
+    .biography_banner {
+        background-image: url(images/biography-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*biography part end*/
+    /*latest work starts*/
+    
+    .latest_work_text {
+        text-align: center;
+        margin-top: 200px;
+    }
+    
+    h4 {
+        font-size: 40px;
+    }
+    
+    .work_img {
+        width: 30%;
+        float: left;
+        padding: 0px 20px;
+        margin-top: 200px;
+    }
+    
+    .work_img img {
+        width: 100%;
+    }
+    
+    .latest_work {
+        background-image: url(images/latest-work-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*footer part start*/
+    
+    h5 {
+        font-size: 50px;
+    }
+    
+    .name {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .quot {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .footer_btn {
+        text-align: center;
+        line-height: 5px;
+    }
+    
+    .footer_btn button {
+        padding: 30px 50px;
+        background-color: #e0415c;
+        border-radius: 6px;
+        border: none;
+    }
+    
+    .footer_btn button:hover {
+        background-color: beige;
+        transition: .5s;
+        color: black;
+    }
+    
+    .footer_btn button a:hover {
+        background-color: beige;
+        transition: .5s;
+        color: black;
+    }
+    
+    .footer_btn button a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .contact {
+        font-size: 24px;
+        padding-top: 10px;
+    }
